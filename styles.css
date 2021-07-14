@@ -1,0 +1,232 @@
+/* overall formatting */
+html {
+    background-color: #19191b;
+    font-family: Philosopher, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow {
+    text-shadow: 3px 1px #292929;
+}
+
+.boxed {
+    box-shadow: 0px 5px 25px 30px rgba(70, 70, 70, .25);
+    border: 7px solid #727272;
+    background-color: #616161;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 11px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/* Navbar */
+.navbar {
+    height: 70px;
+    width: 98.5%;
+    transform: translate(0%, 10%);
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 24px;
+    transform: translate(0%, 72%);
+
+}
+
+.navbar a:hover {
+    background-image: linear-gradient(grey, #616161);
+    color: white;
+}
+
+
+/* HOME */
+/* Title */
+.name {
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    right: 35%;
+    padding: 13px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 11px;
+    background-color: #616161;
+}
+
+/* Cover img */
+.cover {
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    height: 600px;
+    padding: 1px;
+    background-color: #727272;
+    animation: movingPic infinite 2s ease-in-out;
+}
+
+/* ANIMATION */
+
+@keyframes movingPic {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    5% {
+        transform: translate(0px, 1px);
+    }
+
+    10% {
+        transform: translate(0px, 2px);
+    }
+
+    20% {
+        transform: translate(0px, 2px);
+    }
+
+    30% {
+        transform: translate(0px, 1px);
+    }
+
+    40% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    60% {
+        transform: translate(0px, -1px);
+    }
+
+    70% {
+        transform: translate(0px, -2px);
+    }
+
+    80% {
+        transform: translate(0px, -2px);
+    }
+
+    90% {
+        transform: translate(0px, -1px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+/* ABOUT */
+.about {
+    color: #ffffff;
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    right: 30%;
+    padding: 11px;
+}
+
+.warren-logo1 {
+    width: 300px;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+
+.warren-logo2 {
+    width: 300px;
+    position: absolute;
+    top: 150%;
+    right: 5%;
+}
+
+
+/* PROJECTS */
+.projects {
+    color: #ffffff;
+    position: absolute;
+    top: 223%;
+    left: 25%;
+    right: 25%;
+    padding: 11px;
+    text-align: center;
+}
+
+.project_ {
+    width: 250px;
+}
+
+
+/* PRESENTATION */
+.pres {
+    color: #ffffff;
+    position: absolute;
+    top: 320%;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    padding: 11px;
+}
+
+.pres-img {
+    height: 200px;
+}
+
+/* CONTACT-ME */
+.contactMe {
+    color: #ffffff;
+    position: absolute;
+    top: 400%;
+    left: 10%;
+    right: 10%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-display {
+    text-align: center;
+    padding: 8px;
+}
+
+.github-icon {
+    height: 200px;
+}
+
+.instagram-icon {
+    height: 200px;
+}
+
+.email-icon {
+    height: 200px;
+}
+
+button{
+ 	background-color: #19191b;
+    color: #19191b;
+}
