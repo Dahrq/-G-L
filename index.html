@@ -4119,7 +4119,7 @@ p {
 .cover {
     position: absolute;
     top: 38%;
-    left: 33%;
+    left: 34.8%;
     height: 600px;
     padding: 1px;
     background-color: #727272;
@@ -4189,6 +4189,8 @@ p {
     padding: 11px;
 }
 
+
+
 .warren-logo1 {
     width: 300px;
     position: absolute;
@@ -4225,21 +4227,22 @@ p {
     color: #ffffff;
     position: absolute;
     top: 320%;
-    left: 30%;
-    right: 30%;
+    left: 25%;
+    right: 25%;
     text-align: center;
     padding: 11px;
 }
 
-.pres-img {
-    height: 200px;
+.prezi{
+   height: 315px;
+    width: 560px;
 }
 
 /* CONTACT-ME */
 .contactMe {
     color: #ffffff;
     position: absolute;
-    top: 400%;
+    top: 420%;
     left: 10%;
     right: 10%;
 }
@@ -4269,18 +4272,39 @@ p {
 }
 
 .email-icon {
-    height: 200px;
+    height: 250px;
+}
+
+.linkedin-icon{
+ 	height: 200px;
+    text-align: center;
 }
 
 button{
  	background-color: #19191b;
+    color: #19191b;
+}
+
+.btt{
+ 	position: absolute;
+    top: 530%;
+    left: 45%;
+    right: 45%;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blank-space{
+    position: absolute;
+    top: 550%;
     color: #19191b;
 }</style></head>
 
     <body>
 
         <!-- Navbar and navigation -->
-        <div class="navbar shadow boxed">
+        <div id="navbar" class="navbar shadow boxed">
             <a href="#contact-me">Contact Me</a>
             <a href="#presentation">Special Topics Presentation</a>
             <a href="#projects"> Projects</a>
@@ -4293,7 +4317,7 @@ button{
         <div>
             <h1 id="home" class="name shadow boxed">GAVIN LEDFORD</h1>
 
-            <img class="cover boxed" src="https://i.imgur.com/zmAOCpd.jpg">
+            <img class="cover boxed" src="https://i.imgur.com/tCeSE46.jpeg">
         </div>
 
         <div>
@@ -4335,7 +4359,7 @@ button{
 
         <div id="presentation" class="pres shadow boxed">
             <h3>SPECIAL PROJECTS PRESENTATION</h3>
-            <a href="https://prezi.com/view/d3r9a3VwUKqVTsS6b8Xx/"><img class="pres-img" src="https://th.bing.com/th/id/R.56fcdec72d84d5c934156def65938309?rik=X%2b3DupC%2f8amg8g&amp;riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_414428.png&amp;ehk=ladQ6cyrqgUC%2b3kuzlAZuUXri7OjoTyPzpwplDSkANU%3d&amp;risl=&amp;pid=ImgRaw"></a>
+            <iframe class="prezi" src="https://prezi.com/v/embed/jdpq0cva85kx/"></iframe>
             <br>
             Software Development Presentation
         </div>
@@ -4345,18 +4369,23 @@ button{
 
             <div class="shadow column-display">
                 <div class="row">
-                    <div class="column shadowed">
+                    <div class="column shadow">
                         <a href="https://github.com/Dahrq" target="_blank"><img class="github-icon" src="https://cdn.onlinewebfonts.com/svg/img_327941.png"></a>
                         <br>
                         Github
+                        
                     </div>
-                    <div class="column shadowed">
+                    <div class="column shadow">
+                        <a href="https://www.linkedin.com/in/gavin-ledford-6b3227217/" target="_blank"><img class="linkedin-icon" src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png"></a>
+                        <br>
+                        LinkedIn
+						<br>
                         <a href="mailto: gwl32404@gmail.com"><img class="email-icon" src="https://th.bing.com/th/id/R.3ea5d09ed6d30dbf6f1f4871e5e4c788?rik=eup%2fip%2b%2bPb5cTA&amp;riu=http%3a%2f%2fwww.iconninja.com%2ffiles%2f251%2f835%2f636%2fblack-email-icon.png&amp;ehk=MRfsAEsSVSSBYQmxuFfZs9MoETTvHG4hR5pfgPcsx6k%3d&amp;risl=&amp;pid=ImgRaw"></a>
                         <br>
                         G-mail
-
+                        
                     </div>
-                    <div class="column shadowed">
+                    <div class="column shadow">
                         <a href="https://www.instagram.com/dahrq_/" target="_blank"><img class="instagram-icon" src="https://www.stanthonyshs.org/wp-content/uploads/2018/01/instagram-logo-black-transparent.png"></a>
                         <br>
                         Instagram
@@ -4365,7 +4394,15 @@ button{
             </div>
            
         </div>
-			<button target="_blank">Button Link</button>
+        
+        <div>
+            <a class="btt shadow boxed" href="#navbar">^ Back to Top ^</a>
+        </div>
+        
+        <div class="blank-space">
+               <p>This is actually invisible! I'm just using it to create space between the bottom of the page and the previous element/section!</p>
+            </div>
+			<button></button>
     
 
 <script>
