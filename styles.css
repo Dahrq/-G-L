@@ -73,7 +73,7 @@ p {
 .cover {
     position: absolute;
     top: 38%;
-    left: 33%;
+    left: 34.8%;
     height: 600px;
     padding: 1px;
     background-color: #727272;
@@ -143,6 +143,8 @@ p {
     padding: 11px;
 }
 
+
+
 .warren-logo1 {
     width: 300px;
     position: absolute;
@@ -179,21 +181,22 @@ p {
     color: #ffffff;
     position: absolute;
     top: 320%;
-    left: 30%;
-    right: 30%;
+    left: 25%;
+    right: 25%;
     text-align: center;
     padding: 11px;
 }
 
-.pres-img {
-    height: 200px;
+.prezi{
+   height: 315px;
+    width: 560px;
 }
 
 /* CONTACT-ME */
 .contactMe {
     color: #ffffff;
     position: absolute;
-    top: 400%;
+    top: 420%;
     left: 10%;
     right: 10%;
 }
@@ -223,10 +226,31 @@ p {
 }
 
 .email-icon {
-    height: 200px;
+    height: 250px;
+}
+
+.linkedin-icon{
+ 	height: 200px;
+    text-align: center;
 }
 
 button{
  	background-color: #19191b;
+    color: #19191b;
+}
+
+.btt{
+ 	position: absolute;
+    top: 530%;
+    left: 45%;
+    right: 45%;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blank-space{
+    position: absolute;
+    top: 550%;
     color: #19191b;
 }
